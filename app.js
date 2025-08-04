@@ -38,7 +38,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(3000, '0.0.0.0', () => {
+app.listen(8080, '0.0.0.0', () => {
   console.log('Server is running on port 3000');
 });
 
